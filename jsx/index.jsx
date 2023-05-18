@@ -14,7 +14,10 @@ export const PrismCode =
                 return code;
         }
 
-        const formattedHtml = Prism.highlight(code, Prism.languages[lang], lang);
+        const formattedHtml =
+            Prism
+                .highlight(code, Prism.languages[lang], lang)
+                .replace(/>\s+</g,'><'); // Remove unneccessary whitepace
 
         return <raw-content content={formattedHtml} />
     }
