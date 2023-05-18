@@ -1,0 +1,36 @@
+{
+  "name": "@nakedjsx/plugin-asset-prism",
+  "version": "0.7.0-test.0",
+  "description": "Generate and use multiple resolutions and formats from a source image.",
+  "type": "module",
+  "exports": {
+    ".": "./plugin/index.mjs",
+    "./jsx": "./jsx/index.jsx",
+    "./theme.css": "./asset/theme.css"
+  },
+  "dependencies": {
+    "prismjs": "1.29.0"
+  },
+  "peerDependencies": {
+    "@nakedjsx/core": "0.7.0-test.0"
+  },
+  "author": "David Hogan",
+  "license": "BSD-3-Clause",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nakedjsx",
+    "jsx",
+    "image",
+    "graphicsmagick"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NakedJSX/plugin-asset-prism.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NakedJSX/plugin-asset-prism/issues"
+  },
+  "homepage": "https://github.com/NakedJSX/plugin-asset-prism"
+}

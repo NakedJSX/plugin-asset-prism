@@ -1,0 +1,151 @@
+/**
+* NakedJSX Prism theme, adapted from the offical Okaida Prism theme:
+* https://github.com/PrismJS/prism/blob/master/themes/prism-okaidia.css
+* Okaida was loosely based on Monokai textmate theme by http://www.monokai.nl/
+*
+* Color values were then replaced with more accessible colours in a11y-light
+* for light mode and a11y-dark and for dark mode.
+* https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-light.css
+* https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-dark.css
+*/
+
+:root {
+    --code-fg-color: #545454;
+    --code-bg-color: #f5f5f5;
+    --code-comment: #696969;
+    --code-punctuation: #545454;
+    --code-property: #007299;
+    --code-number: #008000;
+    --code-string: #aa5d00;
+    --code-operator: #008000;
+    --code-function: #aa5d00;
+    --code-keyword: #d91e18;
+    --code-regex: #d91e18;
+}
+@media (prefers-color-scheme:dark) {
+    :root {
+        --code-fg-color: #f8f8f2;
+        --code-bg-color: #2b2b2b;
+        --code-comment: #d4d0ab;
+        --code-punctuation: #fefefe;
+        --code-property: #ffa07a;
+        --code-number: #00e0e0;
+        --code-string: #abe338;
+        --code-operator: #00e0e0;
+        --code-function: #ffd700;
+        --code-keyword: #00e0e0;
+        --code-regex: #ffd700;
+    }
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: var(--code-fg-color);
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.125;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    overflow: auto;
+    white-space: pre;
+    padding: 6px 8px;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background: var(--code-bg-color);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: var(--code-comment);
+}
+
+.token.punctuation {
+    color: var(--code-punctuation);
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: var(--code-property);
+}
+
+.token.boolean,
+.token.number {
+    color: var(--code-number);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: var(--code-string);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+    color: var(--code-operator);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+    color: var(--code-function);
+}
+
+.token.keyword {
+    color: var(--code-keyword);
+}
+
+.token.regex,
+.token.important {
+    color: var(--code-regex);
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
