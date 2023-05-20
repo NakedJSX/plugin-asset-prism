@@ -1,5 +1,4 @@
-import Prism from 'prismjs'
-import loadLanguages from 'prismjs/components/'
+import { Prism, loadLanguages } from '../plugin/index.mjs'
 
 export const PrismCode =
     ({ lang, code }) =>

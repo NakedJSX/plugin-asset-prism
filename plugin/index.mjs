@@ -2,6 +2,9 @@
 // import path from 'node:path';
 // import fsp from 'node:fs/promises';
 
+export { default as Prism } from 'prismjs';
+export { default as loadLanguages } from 'prismjs/components/index.js';
+
 let log;
 
 const plugin =
