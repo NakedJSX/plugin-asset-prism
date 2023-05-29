@@ -10,7 +10,6 @@ let log;
 const plugin =
     {
         type: 'asset',
-        id: 'prism',
         importAsset
     };
 
