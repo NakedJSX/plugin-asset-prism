@@ -1,13 +1,15 @@
-/**
-* NakedJSX Prism theme, adapted from the offical Okaida Prism theme:
-* https://github.com/PrismJS/prism/blob/master/themes/prism-okaidia.css
-* Okaida was loosely based on Monokai textmate theme by http://www.monokai.nl/
-*
-* Color values were then replaced with more accessible colours in a11y-light
-* for light mode and a11y-dark and for dark mode.
-* https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-light.css
-* https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-dark.css
-*/
+/*
+ * NakedJSX Prism theme, adapted from the offical Okaida Prism theme:
+ * https://github.com/PrismJS/prism/blob/master/themes/prism-okaidia.css
+ * Okaida was loosely based on Monokai textmate theme by http://www.monokai.nl/
+ *
+ * Color values were then replaced with more accessible colours in a11y-light
+ * for light mode and a11y-dark and for dark mode.
+ * https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-light.css
+ * https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/prism/a11y-dark.css
+ *
+ * See https://nakedjsx.org for more information about NakedJSX.
+ */
 
 :root {
     --code-fg-color: #545454;

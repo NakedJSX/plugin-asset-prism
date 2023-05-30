@@ -6,7 +6,7 @@
   "exports": {
     ".": "./plugin/index.mjs",
     "./jsx": "./jsx/index.jsx",
-    "./theme.css": "./asset/theme.css"
+    "./theme.css": "./asset/nakedjsx-prism-theme.css"
   },
   "dependencies": {
     "prismjs": "1.29.0"
