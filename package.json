@@ -1,7 +1,7 @@
 {
   "name": "@nakedjsx/plugin-asset-prism",
-  "version": "0.12.0",
-  "description": "Generate and use multiple resolutions and formats from a source image.",
+  "version": "0.13.0",
+  "description": "Format source code using Prism.",
   "type": "module",
   "exports": {
     ".": "./plugin/index.mjs",
