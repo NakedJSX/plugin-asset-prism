@@ -27,5 +27,5 @@ async function importAsset(context, asset)
     // and return the HTML result as a string.
     //
 
-    return `export default ${JSON.stringify("<strong>TODO, implement plugin-asset-prism importAsset()</strong>")}`;
+    throw Error(`TODO: implement importAsset() in @nakedjsx/plugin-asset-import. Use the exported <PrismCode /> tag for now.`);
 }
