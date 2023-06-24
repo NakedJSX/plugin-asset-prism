@@ -9,7 +9,7 @@ let log;
 
 const plugin =
     {
-        type: 'asset',
+        type: 'asset-import',
         importAsset
     };
 
