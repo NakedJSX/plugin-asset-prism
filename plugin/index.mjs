@@ -5,7 +5,7 @@ let log;
 
 const plugin =
     {
-        type: 'asset-import',
+        type: 'asset',
         importAsset
     };
 
