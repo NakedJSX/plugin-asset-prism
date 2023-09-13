@@ -1,7 +1,3 @@
-// import querystring from 'node:querystring';
-// import path from 'node:path';
-// import fsp from 'node:fs/promises';
-
 export { default as Prism } from 'prismjs';
 export { default as loadLanguages } from 'prismjs/components/index.js';
 
@@ -27,5 +23,5 @@ async function importAsset(context, asset)
     // and return the HTML result as a string.
     //
 
-    throw Error(`TODO: implement importAsset() in @nakedjsx/plugin-asset-import. Use the exported <PrismCode /> tag for now.`);
+    throw Error(`TODO: implement importAsset() in @nakedjsx/plugin-asset-prism. Use the exported <PrismCode /> tag for now.`);
 }
