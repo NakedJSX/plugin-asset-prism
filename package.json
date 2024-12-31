@@ -1,6 +1,6 @@
 {
   "name": "@nakedjsx/plugin-asset-prism",
-  "version": "0.18.0-test.3",
+  "version": "0.18.0-test.4",
   "description": "Format source code using Prism.",
   "type": "module",
   "exports": {
